@@ -43,7 +43,7 @@ body {
 
 #btnAbrir:hover {
     transform: scale(1.05);
-    background: #b30000;
+    background: #b52a2a;
 }
 
 /* Contenido principal */
@@ -58,7 +58,7 @@ body {
 /* Primera sección */
 .principal h1 {
     color: #69b7ff;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-bottom: 40px;
 }
 
