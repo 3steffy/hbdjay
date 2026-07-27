@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Crafty Girls';
+    font-family: 'Crafty Girls', cursive;
     background: #111111;
     color: white;
     text-align: center;
@@ -27,9 +27,9 @@ body {
     color: #69b7ff;
     font-size: 3.2rem;
     margin: 10px 0;
-
 }
 
+/* Botón */
 #btnAbrir {
     background: #ffee8c;
     color: white;
@@ -56,25 +56,23 @@ body {
 }
 
 /* Primera sección */
-
 .principal h1 {
     color: #69b7ff;
     font-size: 3.5rem;
     margin-bottom: 40px;
 }
 
-
-.foto-principal{
-    width:200 px;
-    max-width:90%;
-    box-shadow:0 0 20px rgba(105,183,255,.25);
+.foto-principal {
+    width: 200px;
+    max-width: 90%;
+    box-shadow: 0 0 20px rgba(105, 183, 255, 0.25);
 }
 
-.mensaje{
-    margin-top:35px;
-    font-size:1.15rem;
-    line-height:1.8;
-    max-width:700px;
-    margin-left:auto;
-    margin-right:auto;
+.mensaje {
+    margin-top: 35px;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
