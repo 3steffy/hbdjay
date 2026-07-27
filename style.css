@@ -52,3 +52,34 @@ body {
 .oculto {
     display: none;
 }
+
+/* Primera sección */
+
+.principal{
+    max-width:900px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+.principal h1{
+    color:#69b7ff;
+    font-size:3rem;
+    margin-bottom:40px;
+}
+
+.foto-principal{
+    width:320px;
+    max-width:90%;
+    border-radius:20px;
+    border:2px solid #69b7ff;
+    box-shadow:0 0 20px rgba(105,183,255,.25);
+}
+
+.mensaje{
+    margin-top:35px;
+    font-size:1.15rem;
+    line-height:1.8;
+    max-width:700px;
+    margin-left:auto;
+    margin-right:auto;
+}
