@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Crafty Girls';
     background: #111111;
     color: white;
     text-align: center;
@@ -25,7 +25,9 @@ body {
 
 .pantalla-inicial h1 {
     color: #69b7ff;
-    font-size: 2.5rem;
+    font-size: 3.2rem;
+    margin: 10px 0;
+
 }
 
 #btnAbrir {
@@ -55,23 +57,16 @@ body {
 
 /* Primera sección */
 
-.principal{
-    max-width:900px;
-    margin:auto;
-    padding:60px 20px;
+.principal h1 {
+    color: #69b7ff;
+    font-size: 3.5rem;
+    margin-bottom: 40px;
 }
 
-.principal h1{
-    color:#69b7ff;
-    font-size:3rem;
-    margin-bottom:40px;
-}
 
 .foto-principal{
-    width:120px;
+    width:200 px;
     max-width:90%;
-    border-radius:20px;
-    border:2px solid #69b7ff;
     box-shadow:0 0 20px rgba(105,183,255,.25);
 }
 
