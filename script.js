@@ -1,54 +1,8 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #111111;
-  color: white;
-  text-align: center;
-}
+const btn = document.getElementById('btnAbrir');
+const inicio = document.getElementById('inicio');
+const contenido = document.getElementById('contenido');
 
-/* Pantalla inicial */
-.pantalla-inicial {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-.gif-portada {
-  width: 280px;
-  max-width: 90%;
-  border-radius: 20px;
-}
-
-.pantalla-inicial h1 {
-  color: #69b7ff;
-  font-size: 2.5rem;
-}
-
-#btnAbrir {
-  background: #4fa8ff;
-  color: white;
-  border: none;
-  padding: 14px 28px;
-  border-radius: 30px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: transform 0.2s ease, background 0.2s ease;
-}
-
-#btnAbrir:hover {
-  transform: scale(1.05);
-  background: #69b7ff;
-}
-
-/* Contenido principal */
-main {
-  padding: 60px 20px;
-}
-
-.oculto {
-  display: none;
-}
+btn.addEventListener('click', () => {
+  inicio.style.display = 'none';
+  contenido.classList.remove('oculto');
+});
