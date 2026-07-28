@@ -77,25 +77,28 @@ body {
     margin-right: auto;
 }
 
-/* Galería de 3 fotos */
+/* Galería de fotos */
 
 .galeria{
-    display:flex;
-    justify-content:center;
-    gap:25px;
-    margin-top:45px;
-    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+    flex-wrap: wrap;
 }
 
 .galeria img{
-    width:190px;
-    height:190px;
-    object-fit:cover;
-    border:2px solid #69b7ff;
-    border-radius:18px;
-    transition:.3s;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid #69b7ff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: block;
 }
 
 .galeria img:hover{
-    transform:scale(1.05);
+    transform: scale(1.05);
+    transition: 0.3s;
 }
