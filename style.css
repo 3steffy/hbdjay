@@ -174,3 +174,31 @@ body {
         0 0 24px #69b7ff,
         0 0 40px rgba(105,183,255,1);
 }
+
+/* Botón de YouTube */
+
+.youtube{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.btn-youtube{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 16px 34px;
+
+    background: #69b7ff;
+    color: white;
+
+    text-decoration: none;
+    font-size: 1.1rem;
+
+    border-radius: 40px;
+
+    transition: .3s;
+}
+
+.btn-youtube:hover{
+    background: #b52a2a;
+    transform: scale(1.08);
+}
