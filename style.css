@@ -72,10 +72,40 @@ body {
     margin-bottom: 40px;
 }
 
-.foto-principal {
+/* Contenedor de las dos fotos */
+.fotos-principales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+}
+
+/* Foto cuadrada */
+.foto-principal{
     width: 200px;
-    max-width: 90%;
-    box-shadow: 0 0 20px rgba(105,183,255,.25);
+    height: 200px;
+    object-fit: cover;
+
+    border: 2px solid #69b7ff;
+
+    box-shadow:
+        0 0 8px #69b7ff,
+        0 0 18px rgba(105,183,255,.6);
+}
+
+/* Foto rectangular */
+.foto-rectangular{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+
+    border: 2px solid #69b7ff;
+
+    box-shadow:
+        0 0 8px #69b7ff,
+        0 0 18px rgba(105,183,255,.6);
 }
 
 .mensaje {
