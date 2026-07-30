@@ -188,7 +188,7 @@ body {
     padding: 16px 34px;
 
     background: #69b7ff;
-    color: white;
+    color: black;
 
     text-decoration: none;
     font-size: 1.1rem;
@@ -199,6 +199,6 @@ body {
 }
 
 .btn-youtube:hover{
-    background: #b52a2a;
+    background: #f2e283;
     transform: scale(1.08);
 }
