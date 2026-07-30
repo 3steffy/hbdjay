@@ -146,7 +146,7 @@ body {
     transform: scale(1.05);
 }
 
-.centro {
+.centro{
     grid-column: 1 / 3;
     justify-self: center;
 
@@ -158,9 +158,19 @@ body {
     border: 2px solid #69b7ff;
     border-radius: 20px;
 
+    box-shadow:
+        0 0 8px #69b7ff,
+        0 0 18px #69b7ff,
+        0 0 30px rgba(105,183,255,.8);
+
     transition: .3s;
 }
 
-.centro:hover {
+.centro:hover{
     transform: scale(1.05);
+
+    box-shadow:
+        0 0 12px #69b7ff,
+        0 0 24px #69b7ff,
+        0 0 40px rgba(105,183,255,1);
 }
