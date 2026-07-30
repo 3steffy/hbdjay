@@ -40,6 +40,22 @@ body {
     background: #b52a2a;
 }
 
+/* Pompompurin */
+
+.pompompurin{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    width: 110px;
+    height: auto;
+
+    z-index: 1000;
+
+    pointer-events: none;
+    user-select: none;
+}
+
 /* Contenido principal */
 #contenido {
     padding: 60px 20px;
