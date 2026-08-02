@@ -75,6 +75,11 @@ body {
     color: #69b7ff;
     font-size: 2.3rem;
     margin-bottom: 40px;
+
+    text-shadow:
+        0 0 6px #69b7ff,
+        0 0 12px rgba(105, 183, 255, 0.8),
+        0 0 20px rgba(105, 183, 255, 0.5);
 }
 
 /* Contenedor de las dos fotos */
